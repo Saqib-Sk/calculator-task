@@ -38,8 +38,8 @@ body {
     border: none;
     color: #fff;
     padding: 20px;
-    font-size: 1.5em;
-    border-radius: 5px;
+    font-size: 1.7em;
+    border-radius: 20px;
     cursor: pointer;
 }
 
@@ -48,7 +48,9 @@ body {
     grid-column: span 2;
     
 }
-
+.key.special.C:hover{
+    background-color: #221f1f;
+}
 .key.extra1 {
     background-color: red;
     grid-row: span 1;
@@ -64,3 +66,6 @@ body {
     background-color: #221f1f;
 }
 
+.key.extra1:hover{
+    background-color: #221f1f;
+}
